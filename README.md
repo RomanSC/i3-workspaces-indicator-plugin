@@ -2,10 +2,11 @@
 
 A work in progress. Ultimately stalled until I either pick up C/C++ or xfce4 gets gobject introspection for Python bindings. (or until I find a workaround, which is possible.)
 
-Licensed as WTFPL, so you can do wtf you want with this code. This Python scripts listens to i3 events on a socket and produces a table for all active destops as well as their status, such as focused and urgent mode.
-The script also listens for the bindind mode, if you enter resize mode in i3 the script is updated with that information as well. I encourage anyone to use this if they want for plugins in various Linux desktops that allow for i3 to be used as the window manager and that happen to have Python bindings.
+Licensed as WTFPL, so you can do wtf you want with this code. This Python script listens to a few i3 events on a socket and produces a table for all active workspaces as well as their status, specifically focused and urgent mode. The script also listens for the binding mode, if you enter resize mode in i3 the script is updated with that information as well. I encourage anyone to use this if they want for plugins in various Linux desktops that allow for i3 to be used as the window manager and that happen to have Python bindings.
 
-What's not implemented is the GTK or Qt aspects that would make this a plugin. So for now it's TODO
+What's not implemented is the GTK or Qt aspects that would make this a plugin. So for now it's TODO.
+
+The goal is to write a plugin for the xfce4 desktop that displays the status of your i3 workspaces and binding mode just like the default, only allowing for transparency and custom color options.
 
 # Dependencies:
 + <a href="https://www.python.org/">Python3</a>
