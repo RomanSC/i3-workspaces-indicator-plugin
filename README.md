@@ -16,5 +16,5 @@ The goal is to write a plugin for the xfce4 desktop that displays the status of 
 
 # Issue:
 
-Awaiting patch or workaround.
-<br><a href="https://bugzilla.xfce.org/show_bug.cgi?id=12159"></a></br>
+Awaiting patch or workaround:
+<br><a href="https://bugzilla.xfce.org/show_bug.cgi?id=12159">https://bugzilla.xfce.org/show_bug.cgi?id=12159</a></br>
